@@ -1,0 +1,162 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 33, 48);    
+    /* font-family:  'Lucida Sans Unicode';  */
+    font-family:cursive;
+}
+
+
+.out{
+
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #007ea8; */
+
+    background-color: #007ea8;
+
+    width: 350px;
+    height: 340px;
+
+
+}
+
+.loginbox{
+
+   
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 260px;
+
+}
+
+.loginbox h1{
+
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 19px;
+        letter-spacing: -0.04em;
+        color:  rgb(0, 0, 0);
+    }
+
+
+.textbox input{
+    font-weight: lighter;
+    border: none;
+    outline: none;
+    background-color: rgb(200, 202, 204);
+    color: rgb(0, 0, 0);
+    font-size: small;
+    width: 225px;
+    height: 27px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.bts{
+
+
+    width: 225px;
+    height: 30px;
+    margin: auto;
+    display: block;
+  
+   background-color:#007ea8; 
+
+ 
+
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    
+
+
+}
+
+.bts:hover{
+
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.bts:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.Ink{
+
+    
+    font-weight: lighter;
+    text-decoration: underline;
+    letter-spacing: -0.04em;
+    color: black;
+    font-size: small;
+    outline: none;
+    box-shadow: none;
+
+    position: absolute;
+    left: 85px;
+    bottom: 28px;
+
+
+
+}
+
+.Ink:hover{
+
+    
+    color: rgb(6, 245, 6);
+    text-decoration: dotted;
+    outline: none;
+    box-shadow: none;
+
+
+}
+
+.acctext{
+
+    position: absolute;
+    bottom: 20px;
+    font-weight: lighter;
+    font-size: small;
+   
+    letter-spacing: -0.04em;
+    left:90px;
+    color: white;
+    
+
+}
+
+.acctext #signu{
+
+    color: white;
+    text-decoration: underline;
+    outline: none;
+    box-shadow: none;
+
+
+}
+#signu:hover{
+
+
+    color: rgb(6, 245, 6);
+    text-decoration: dotted;
+    outline: none;
+    box-shadow: none;
+
+}
